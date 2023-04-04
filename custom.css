@@ -21,6 +21,10 @@ p{
   font-weight: 400;
   color: #fff;
 }
+a{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
 small {
   color: var(--muted-color);
 }
@@ -39,12 +43,6 @@ small {
   background-size: cover;
   border-bottom-right-radius: 10% 10%;
   border-bottom-left-radius: 10% 10%;
-}
-.MTR{
-  margin-left: -17px;
-}
-.two{
-  display: inline-block;
 }
 .company{
   display: flex;
@@ -70,22 +68,6 @@ small {
   margin-right: auto;
   margin-left: 30px;
 }
-.card1 .img-top1,
-.card2 .img-top2{
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.card2:hover .img-top2,
-.card1:hover .img-top1{
-  display: inline;
-}
-.card2:hover .img-gone {
-  display: none;
-}
-
 header {
   padding: var(--spacing-company) 0;
 }
